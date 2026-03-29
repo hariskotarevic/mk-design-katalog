@@ -280,6 +280,14 @@
                 <h2>Naši projekti</h2>
             </div>
 
+            <div class="project-search-wrapper">
+                <svg class="project-search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                </svg>
+                <input type="text" id="project-search" class="project-search-input" placeholder="Pretraži po nazivu, kamenu, boji..." aria-label="Pretraži projekte">
+            </div>
+
             <div class="category-tabs" role="tablist" aria-label="Filteri za projekte">
                 <button class="category-tab active" data-category="all" role="tab" aria-selected="true">Svi</button>
                 <button class="category-tab" data-category="spomenici" role="tab" aria-selected="false">Spomenici</button>
@@ -289,6 +297,34 @@
                 <button class="category-tab" data-category="fasade" role="tab" aria-selected="false">Fasade</button>
                 <button class="category-tab" data-category="stepenista" role="tab" aria-selected="false">Stepeništa</button>
                 <button class="category-tab" data-category="ostalo" role="tab" aria-selected="false">Ostalo</button>
+            </div>
+
+            <div class="project-filters" id="project-filters">
+                <select id="filter-color" class="project-filter-select" aria-label="Filter po boji">
+                    <option value="">Sve boje</option>
+                    <option value="bijela">Bijela</option>
+                    <option value="crna">Crna</option>
+                    <option value="siva">Siva</option>
+                    <option value="smeđa">Smeđa</option>
+                    <option value="crvena">Crvena</option>
+                    <option value="plava">Plava</option>
+                    <option value="zelena">Zelena</option>
+                    <option value="bež">Bež</option>
+                    <option value="šarena">Šarena</option>
+                </select>
+                <select id="filter-stone-type" class="project-filter-select" aria-label="Filter po vrsti kamena">
+                    <option value="">Svi kameni</option>
+                    <option value="granit">Granit</option>
+                    <option value="mramor">Mramor</option>
+                    <option value="kvarc">Kvarc</option>
+                </select>
+                <select id="filter-processing" class="project-filter-select" aria-label="Filter po obradi">
+                    <option value="">Sve obrade</option>
+                    <option value="poliranje">Polirano</option>
+                    <option value="brusenje">Brušeno</option>
+                    <option value="antik">Antik</option>
+                    <option value="pjeskarenje">Pjeskareno</option>
+                </select>
             </div>
 
             <div class="project-grid" id="project-grid" role="list" aria-label="Lista projekata"></div>

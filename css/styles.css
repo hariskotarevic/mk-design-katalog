@@ -1253,11 +1253,89 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Category Tabs */
+/* Project Search */
+.project-search-wrapper {
+  position: relative;
+  padding: 0 16px 12px;
+}
+
+.project-search-icon {
+  position: absolute;
+  left: 28px;
+  top: 50%;
+  transform: translateY(calc(-50% - 6px));
+  color: var(--text-muted);
+  pointer-events: none;
+}
+
+.project-search-input {
+  width: 100%;
+  padding: 10px 16px 10px 40px;
+  background: var(--secondary-dark);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  color: var(--white);
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color var(--transition-fast);
+}
+
+.project-search-input::placeholder {
+  color: var(--text-muted);
+}
+
+.project-search-input:focus {
+  outline: none;
+  border-color: var(--gold);
+}
+
+/* Project Filters */
+.project-filters {
+  display: flex;
+  gap: 8px;
+  padding: 0 16px 12px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.project-filters::-webkit-scrollbar {
+  display: none;
+}
+
+.project-filter-select {
+  flex-shrink: 0;
+  padding: 7px 28px 7px 12px;
+  background: var(--secondary-dark);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  color: var(--text-muted);
+  font-size: 12px;
+  font-family: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%23999' stroke-width='2'%3E%3Cpolyline points='6 9 12 15 18 9'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.project-filter-select:focus {
+  outline: none;
+  border-color: var(--gold);
+  color: var(--white);
+}
+
+.project-filter-select.active-filter {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+
 .category-tabs {
   display: flex;
   gap: 8px;
   overflow-x: auto;
-  padding: 0 16px 16px;
+  padding: 0 16px 12px;
   -webkit-overflow-scrolling: touch;
   scrollbar-width: none;
 }
@@ -2995,10 +3073,9 @@ h1, h2, h3, h4, h5, h6 {
 #project-detail {
   position: fixed;
   inset: 0;
-  z-index: 800;
+  z-index: 950;
   background: var(--primary-dark);
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
+  overflow: hidden;
   transform: translateY(100%);
   visibility: hidden;
 }
@@ -3006,6 +3083,19 @@ h1, h2, h3, h4, h5, h6 {
 #project-detail.active {
   transform: translateY(0);
   visibility: visible;
+}
+
+#project-detail > .detail-close {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 820;
+}
+
+#project-detail > .detail-scroll-content {
+  height: 100%;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 /* Gallery track for project detail */

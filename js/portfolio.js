@@ -1,14 +1,18 @@
 /**
  * Portfolio Module - MK Katalog
  * Manages the portfolio/projects screen: project cards, category filtering,
- * and project detail galleries with touch swipe support.
+ * search, advanced filters, and project detail galleries with touch swipe support.
  */
 const Portfolio = {
   projects: [],
   filteredProjects: [],
-  currentFilter: 'svi',
+  currentFilter: 'all',
   currentProject: null,
   galleryIndex: 0,
+  searchQuery: '',
+  filterColor: '',
+  filterStoneType: '',
+  filterProcessing: '',
 
   /**
    * Initialize the portfolio with project data.
@@ -18,6 +22,8 @@ const Portfolio = {
     this.projects = projects;
     this.filteredProjects = [...projects];
     this.setupFilters();
+    this.setupSearch();
+    this.setupAdvancedFilters();
     this.render();
   },
 
@@ -32,20 +38,95 @@ const Portfolio = {
         btn.classList.add('active');
 
         this.currentFilter = btn.dataset.category;
-        this.applyFilter();
+        this.applyAllFilters();
       });
     });
   },
 
   /**
-   * Filter projects by the currently selected category and re-render.
+   * Bind search input handler.
    */
-  applyFilter() {
-    if (this.currentFilter === 'all') {
-      this.filteredProjects = [...this.projects];
-    } else {
-      this.filteredProjects = this.projects.filter(p => p.category === this.currentFilter);
+  setupSearch() {
+    const input = document.getElementById('project-search');
+    if (!input) return;
+
+    input.addEventListener('input', () => {
+      this.searchQuery = input.value.trim().toLowerCase();
+      this.applyAllFilters();
+    });
+  },
+
+  /**
+   * Bind advanced filter dropdown handlers.
+   */
+  setupAdvancedFilters() {
+    const colorSelect = document.getElementById('filter-color');
+    const stoneTypeSelect = document.getElementById('filter-stone-type');
+    const processingSelect = document.getElementById('filter-processing');
+
+    if (colorSelect) {
+      colorSelect.addEventListener('change', () => {
+        this.filterColor = colorSelect.value;
+        colorSelect.classList.toggle('active-filter', !!this.filterColor);
+        this.applyAllFilters();
+      });
     }
+    if (stoneTypeSelect) {
+      stoneTypeSelect.addEventListener('change', () => {
+        this.filterStoneType = stoneTypeSelect.value;
+        stoneTypeSelect.classList.toggle('active-filter', !!this.filterStoneType);
+        this.applyAllFilters();
+      });
+    }
+    if (processingSelect) {
+      processingSelect.addEventListener('change', () => {
+        this.filterProcessing = processingSelect.value;
+        processingSelect.classList.toggle('active-filter', !!this.filterProcessing);
+        this.applyAllFilters();
+      });
+    }
+  },
+
+  /**
+   * Apply category filter, search query, and advanced filters together.
+   */
+  applyAllFilters() {
+    let results = [...this.projects];
+
+    // Category filter
+    if (this.currentFilter !== 'all') {
+      results = results.filter(p => p.category === this.currentFilter);
+    }
+
+    // Search query
+    if (this.searchQuery) {
+      const q = this.searchQuery;
+      results = results.filter(p => {
+        return (p.title && p.title.toLowerCase().includes(q)) ||
+               (p.stoneName && p.stoneName.toLowerCase().includes(q)) ||
+               (p.color && p.color.toLowerCase().includes(q)) ||
+               (p.stoneType && p.stoneType.toLowerCase().includes(q)) ||
+               (p.processing && p.processing.toLowerCase().includes(q)) ||
+               (p.description && p.description.toLowerCase().includes(q));
+      });
+    }
+
+    // Color filter
+    if (this.filterColor) {
+      results = results.filter(p => p.color === this.filterColor);
+    }
+
+    // Stone type filter
+    if (this.filterStoneType) {
+      results = results.filter(p => p.stoneType === this.filterStoneType);
+    }
+
+    // Processing filter
+    if (this.filterProcessing) {
+      results = results.filter(p => p.processing === this.filterProcessing);
+    }
+
+    this.filteredProjects = results;
     this.render();
   },
 
@@ -57,7 +138,7 @@ const Portfolio = {
     if (!grid) return;
 
     if (this.filteredProjects.length === 0) {
-      grid.innerHTML = '<div class="empty-state"><p>Nema projekata u ovoj kategoriji</p></div>';
+      grid.innerHTML = '<div class="empty-state"><p>Nema projekata koji odgovaraju pretrazi</p></div>';
       return;
     }
 
@@ -117,15 +198,14 @@ const Portfolio = {
     );
 
     detail.innerHTML = `
-      <div class="detail-header">
-        <button class="detail-close" onclick="Portfolio.hideDetail()" aria-label="Zatvori">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
-        </button>
-      </div>
+      <button class="detail-close" onclick="Portfolio.hideDetail()" aria-label="Zatvori">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
 
+      <div class="detail-scroll-content">
       <div class="detail-gallery" id="project-gallery">
         <div class="gallery-track" style="transform: translateX(0%)">
           ${project.images.map((img, i) => `
@@ -173,6 +253,7 @@ const Portfolio = {
             Po\u0161aljite upit
           </a>
         </div>
+      </div>
       </div>
     `;
 

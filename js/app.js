@@ -104,6 +104,14 @@ function navigateTo(screenName, { pushState = true } = {}) {
     return;
   }
 
+  // Close any open detail overlays
+  if (typeof StoneDetail !== 'undefined' && StoneDetail.hide) {
+    StoneDetail.hide();
+  }
+  if (typeof Portfolio !== 'undefined' && Portfolio.hideDetail) {
+    Portfolio.hideDetail();
+  }
+
   // Hide all screens and show the target
   screens.forEach((s) => {
     s.classList.remove('active');
