@@ -1,0 +1,112 @@
+[
+  {
+    "id": "project-1",
+    "title": "Porodični spomenik - Nero Zimbabwe",
+    "category": "spomenici",
+    "stone": "nero-assoluto-zimbabwe",
+    "stoneName": "Nero Assoluto Zimbabwe",
+    "processing": "poliranje",
+    "description": "Porodični spomenik izrađen od crnog granita Nero Assoluto Zimbabwe sa visokim sjajem. Ručno gravirani ornamenti i zlatna slova daju ovom spomeniku dostojanstven izgled koji odoljeva vremenskim uslovima.",
+    "images": ["img/projects/spomenik-00.jpg", "img/projects/spomenik-01.jpg"],
+    "featured": true
+  },
+  {
+    "id": "project-2",
+    "title": "Bijeli mramorni nišan sa križem",
+    "category": "spomenici",
+    "stone": "bianco-carrara",
+    "stoneName": "Bianco Carrara",
+    "processing": "poliranje",
+    "description": "Elegantni bijeli mramorni nišan sa ručno klesanim križem. Bianco Carrara mramor daje klasičan i čist izgled, a polirani finish naglašava prirodne žilice kamena.",
+    "images": ["img/projects/spomenik-02.jpg", "img/projects/spomenik-03.jpg"],
+    "featured": true
+  },
+  {
+    "id": "project-3",
+    "title": "Dvojni nišan - Star Galaxy",
+    "category": "spomenici",
+    "stone": "star-galaxy",
+    "stoneName": "Star Galaxy",
+    "processing": "poliranje",
+    "description": "Dvojni nišan za bračni par izrađen od granita Star Galaxy. Zlatne tačkice u crnoj podlozi stvaraju dojam zvjezdanog neba, dok polirana površina osigurava dugotrajnost natpisa.",
+    "images": ["img/projects/spomenik-04.jpg", "img/projects/spomenik-05.jpg"],
+    "featured": true
+  },
+  {
+    "id": "project-4",
+    "title": "Moderni spomenik sa staklenim elementom",
+    "category": "spomenici",
+    "stone": "nero-assoluto",
+    "stoneName": "Nero Assoluto",
+    "processing": "poliranje",
+    "description": "Savremeni dizajn koji kombinuje polirani crni granit sa staklenim umetkom. Čiste linije i minimalistički pristup čine ovaj spomenik posebno elegantnim u svakom okruženju.",
+    "images": ["img/projects/spomenik-06.jpg", "img/projects/spomenik-07.jpg"],
+    "featured": false
+  },
+  {
+    "id": "project-5",
+    "title": "Nišan od ružičastog granita",
+    "category": "spomenici",
+    "stone": "rosa-beta",
+    "stoneName": "Rosa Beta",
+    "processing": "brusenje",
+    "description": "Klasični nišan izrađen od ružičastog granita Rosa Beta sa brušenom završnom obradom. Topla boja kamena i mat površina daju prirodan i skladan izgled koji se lijepo uklapa u okolinu.",
+    "images": ["img/projects/spomenik-08.jpg", "img/projects/spomenik-09.jpg"],
+    "featured": false
+  },
+  {
+    "id": "project-6",
+    "title": "Spomen obilježje - Blue Pearl",
+    "category": "spomenici",
+    "stone": "blue-pearl",
+    "stoneName": "Blue Pearl",
+    "processing": "poliranje",
+    "description": "Reprezentativno spomen obilježje od plavog granita Blue Pearl. Karakteristične plave iskre u kamenu daju jedinstven vizuelni efekat, naročito pod prirodnim svjetlom.",
+    "images": ["img/projects/spomenik-10.jpg", "img/projects/spomenik-11.jpg"],
+    "featured": true
+  },
+  {
+    "id": "project-7",
+    "title": "Spomenik sa gravurom - Kashmir White",
+    "category": "spomenici",
+    "stone": "kashmir-white",
+    "stoneName": "Kashmir White",
+    "processing": "poliranje",
+    "description": "Elegantni bijeli spomenik od granita Kashmir White sa ručno graviranim detaljima. Svijetla podloga sa suptilnim šarama pruža čist i dostojanstven izgled.",
+    "images": ["img/projects/spomenik-12.jpg", "img/projects/spomenik-13.jpg"],
+    "featured": false
+  },
+  {
+    "id": "project-8",
+    "title": "Nišan sa postoljem - Paradiso Classico",
+    "category": "spomenici",
+    "stone": "paradiso-classico",
+    "stoneName": "Paradiso Classico",
+    "processing": "poliranje",
+    "description": "Nišan sa masivnim postoljem od granita Paradiso Classico. Topli smeđi tonovi sa šarenim žilicama daju ovom spomeniku jedinstven karakter i toplinu.",
+    "images": ["img/projects/spomenik-14.jpg", "img/projects/spomenik-15.jpg"],
+    "featured": false
+  },
+  {
+    "id": "project-9",
+    "title": "Dvojni spomenik - Multicolor Red",
+    "category": "spomenici",
+    "stone": "multicolor",
+    "stoneName": "Multicolor Red",
+    "processing": "poliranje",
+    "description": "Dvojni spomenik izrađen od indijskog granita Multicolor Red. Bogata paleta crvenih i smeđih tonova daje ovom kamenu izuzetan vizuelni efekat koji se ističe na svakom mezarju.",
+    "images": ["img/projects/spomenik-16.jpg", "img/projects/spomenik-17.jpg"],
+    "featured": false
+  },
+  {
+    "id": "project-10",
+    "title": "Porodični nišan sa ogradom",
+    "category": "spomenici",
+    "stone": "baltic-brown",
+    "stoneName": "Baltic Brown",
+    "processing": "poliranje",
+    "description": "Kompletno uređen porodični grob sa nišanom i ogradom od finskog granita Baltic Brown. Tamnosmeđa boja sa krupnim kristalima daje otmjen i postojan izgled.",
+    "images": ["img/projects/spomenik-18.jpg", "img/projects/spomenik-19.jpg"],
+    "featured": false
+  }
+]

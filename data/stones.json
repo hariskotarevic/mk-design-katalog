@@ -1,0 +1,662 @@
+[
+  {
+    "id": "african-red",
+    "name": "African Red",
+    "type": "granit",
+    "origin": {
+      "country": "Južna Afrika",
+      "region": null,
+      "flag": "\ud83c\uddff\ud83c\udde6"
+    },
+    "colors": ["crveni", "smeđi"],
+    "uses": ["spomenici", "fasade"],
+    "hardness": 7,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje", "paljenje"],
+    "description": "African Red je upečatljiv granit duboko crvene boje s tamnosmeđim šarama koji potiče iz Južne Afrike. Izuzetno je otporan na atmosferske uticaje i habanje, što ga čini idealnim za izradu spomenika i fasadnih obloga. Njegova intenzivna boja ostaje postojana godinama bez gubitka sjaja.",
+    "images": {
+      "thumbnail": "img/stones/african-red.jpg",
+      "gallery": ["img/stones/african-red.jpg"],
+      "texture3d": "img/stones/african-red.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "baltic-brown",
+    "name": "Baltic Brown",
+    "type": "granit",
+    "origin": {
+      "country": "Finska",
+      "region": null,
+      "flag": "\ud83c\uddeb\ud83c\uddee"
+    },
+    "colors": ["smeđi"],
+    "uses": ["kuhinje", "podovi", "spomenici"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje", "paljenje"],
+    "description": "Baltic Brown je finski granit prepoznatljiv po krupnim okruglim kristalima smeđe i tamne boje na tamnijoj podlozi. Ovaj kamen je izuzetno popularan za kuhinjske radne ploče zbog svoje otpornosti na ogrebotine i toplotu. Također se koristi za podne obloge i izradu ekskluzivnih spomenika.",
+    "images": {
+      "thumbnail": "img/stones/baltic-brown.jpg",
+      "gallery": ["img/stones/baltic-brown.jpg"],
+      "texture3d": "img/stones/baltic-brown.jpg"
+    },
+    "featured": true
+  },
+  {
+    "id": "bianco-carrara",
+    "name": "Bianco Carrara",
+    "type": "mramor",
+    "origin": {
+      "country": "Italija",
+      "region": "Toskana",
+      "flag": "\ud83c\uddee\ud83c\uddf9"
+    },
+    "colors": ["bijeli", "sivi"],
+    "uses": ["kuhinje", "kupatila", "podovi"],
+    "hardness": 3.5,
+    "thicknesses": ["2cm", "3cm", "5cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje"],
+    "description": "Bianco Carrara je najpoznatiji bijeli mramor na svijetu, koji se vadi u toskánskim Alpima već više od dva milenijuma. Odlikuje se elegantnom bijelom podlogom prošaranom finim sivim žilama koje mu daju prepoznatljiv izgled. Koristi se za najluksuznije kuhinje, kupatila i podne obloge u rezidencijalnim i komercijalnim prostorima.",
+    "images": {
+      "thumbnail": "img/stones/bianco-carrara.jpg",
+      "gallery": ["img/stones/bianco-carrara.jpg"],
+      "texture3d": "img/stones/bianco-carrara.jpg"
+    },
+    "featured": true
+  },
+  {
+    "id": "bianco-kristal",
+    "name": "Bianco Kristal",
+    "type": "mramor",
+    "origin": {
+      "country": "Sjeverna Makedonija",
+      "region": null,
+      "flag": "\ud83c\uddf2\ud83c\uddf0"
+    },
+    "colors": ["bijeli"],
+    "uses": ["spomenici", "podovi", "fasade"],
+    "hardness": 4,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje"],
+    "description": "Bianco Kristal je čisti bijeli mramor kristalne strukture koji se vadi u Sjevernoj Makedoniji. Njegova jednolična bijela površina bez izraženih žila čini ga posebno pogodnim za izradu spomenika i nadgrobnih ploča. Također se uspješno koristi za fasadne obloge i podne površine u elegantnim enterijeriima.",
+    "images": {
+      "thumbnail": "img/stones/bianco-kristal.jpg",
+      "gallery": ["img/stones/bianco-kristal.jpg"],
+      "texture3d": "img/stones/bianco-kristal.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "bianco-sardo",
+    "name": "Bianco Sardo",
+    "type": "granit",
+    "origin": {
+      "country": "Italija",
+      "region": "Sardinija",
+      "flag": "\ud83c\uddee\ud83c\uddf9"
+    },
+    "colors": ["bijeli", "sivi"],
+    "uses": ["kuhinje", "stepenista", "fasade"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm", "5cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje", "paljenje"],
+    "description": "Bianco Sardo je svjetlosivi granit sa sitnim crnim i sivim zrncima koji potiče sa italijanskog ostrva Sardinije. Ovaj kamen je izuzetno izdržljiv i otporan na mraz, što ga čini savršenim za vanjske primjene poput fasada i stepeništa. Poliran, dobija elegantan sjaj koji ga čini odličnim izborom i za kuhinjske radne ploče.",
+    "images": {
+      "thumbnail": "img/stones/bianco-sardo.jpg",
+      "gallery": ["img/stones/bianco-sardo.jpg"],
+      "texture3d": "img/stones/bianco-sardo.jpg"
+    },
+    "featured": true
+  },
+  {
+    "id": "blue-eyes",
+    "name": "Blue Eyes",
+    "type": "granit",
+    "origin": {
+      "country": "Indija",
+      "region": null,
+      "flag": "\ud83c\uddee\ud83c\uddf3"
+    },
+    "colors": ["plavi", "sivi"],
+    "uses": ["spomenici", "dekoracija"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje"],
+    "description": "Blue Eyes je indijski granit tamnosive podloge s karakterističnim plavim kristalnim \"očima\" koji mu daju jedinstven izgled. Ovaj dekorativan kamen posebno dolazi do izražaja kada je poliran, otkrivajući dubinu svojih plavih tonova. Najčešće se koristi za izradu ekskluzivnih spomenika i dekorativnih elemenata u enterijeru.",
+    "images": {
+      "thumbnail": "img/stones/blue-eyes.jpg",
+      "gallery": ["img/stones/blue-eyes.jpg"],
+      "texture3d": "img/stones/blue-eyes.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "blue-pearl",
+    "name": "Blue Pearl",
+    "type": "granit",
+    "origin": {
+      "country": "Norveška",
+      "region": "Larvik",
+      "flag": "\ud83c\uddf3\ud83c\uddf4"
+    },
+    "colors": ["plavi", "sivi"],
+    "uses": ["kuhinje", "kupatila", "dekoracija"],
+    "hardness": 6,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje"],
+    "description": "Blue Pearl je luksuzni norveški granit iz regije Larvik, poznat po svojoj tamnoplavoj podlozi s blistavim kristalima koji reflektiraju svjetlost. Kada je poliran, njegova površina podsjeća na zvjezdano nebo, što ga čini jednim od najtraženijih dekorativnih kamena. Idealan je za kuhinjske radne ploče, kupatilske obloge i ekskluzivne dekorativne projekte.",
+    "images": {
+      "thumbnail": "img/stones/blue-pearl.jpg",
+      "gallery": ["img/stones/blue-pearl.jpg"],
+      "texture3d": "img/stones/blue-pearl.jpg"
+    },
+    "featured": true
+  },
+  {
+    "id": "botticino-classico",
+    "name": "Botticino Classico",
+    "type": "mramor",
+    "origin": {
+      "country": "Italija",
+      "region": "Lombardija",
+      "flag": "\ud83c\uddee\ud83c\uddf9"
+    },
+    "colors": ["bež", "smeđi"],
+    "uses": ["podovi", "kupatila", "fasade"],
+    "hardness": 3.5,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje"],
+    "description": "Botticino Classico je talijanski mramor tople bež boje s nježnim smeđim žilama koji se vadi u pokrajini Lombardiji. Ovaj kamen je omiljen u arhitekturi zbog svoje elegancije i toplih tonova koji unose osjećaj luksuza u svaki prostor. Koristi se za podne obloge, kupatilske površine i fasadne obloge na prestižnim objektima.",
+    "images": {
+      "thumbnail": "img/stones/botticino-classico.jpg",
+      "gallery": ["img/stones/botticino-classico.jpg"],
+      "texture3d": "img/stones/botticino-classico.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "giallo-istria",
+    "name": "Giallo Istria",
+    "type": "mramor",
+    "origin": {
+      "country": "Hrvatska",
+      "region": "Istra",
+      "flag": "\ud83c\udded\ud83c\uddf7"
+    },
+    "colors": ["žuti", "bež"],
+    "uses": ["fasade", "podovi"],
+    "hardness": 3.5,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje"],
+    "description": "Giallo Istria je topli žućkasto-bež mramor koji se vadi na istarskom poluostrvu u Hrvatskoj. Ovaj kamen ima dugu tradiciju korištenja u arhitekturi jadranskog područja, posebno u Veneciji i duž dalmatinske obale. Njegova otpornost na morski zrak čini ga izvrsnim izborom za fasade i podne obloge u primorskim krajevima.",
+    "images": {
+      "thumbnail": "img/stones/giallo-istria.jpg",
+      "gallery": ["img/stones/giallo-istria.jpg"],
+      "texture3d": "img/stones/giallo-istria.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "indian-juparana",
+    "name": "Indian Juparana",
+    "type": "granit",
+    "origin": {
+      "country": "Indija",
+      "region": "Karnataka",
+      "flag": "\ud83c\uddee\ud83c\uddf3"
+    },
+    "colors": ["smeđi", "šareni"],
+    "uses": ["kuhinje", "podovi"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm", "5cm"],
+    "processing": ["poliranje", "brusenje", "paljenje"],
+    "description": "Indian Juparana je šareni granit iz indijske savezne države Karnataka, prepoznatljiv po talasastim šarama u nijansama smeđe, ružičaste i sive. Svaka ploča ovog kamena je jedinstvena, što ga čini omiljenim izborom za kuhinjske radne ploče koje žele biti centar pažnje. Izuzetno je tvrd i otporan na habanje, idealan za podne obloge u frekventnim prostorima.",
+    "images": {
+      "thumbnail": "img/stones/indian-juparana.jpg",
+      "gallery": ["img/stones/indian-juparana.jpg"],
+      "texture3d": "img/stones/indian-juparana.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "ivory-brown",
+    "name": "Ivory Brown",
+    "type": "granit",
+    "origin": {
+      "country": "Indija",
+      "region": "Andhra Pradesh",
+      "flag": "\ud83c\uddee\ud83c\uddf3"
+    },
+    "colors": ["smeđi", "bež"],
+    "uses": ["kuhinje", "podovi", "stepenista"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm", "5cm"],
+    "processing": ["poliranje", "brusenje", "paljenje"],
+    "description": "Ivory Brown je indijski granit toplih smeđe-bež tonova s tamnim tačkicama i svijetlim kristalima. Ovaj kamen je izuzetno praktičan jer na njemu nisu vidljivi tragovi svakodnevne upotrebe, što ga čini odličnim za kuhinjske radne ploče i stepeništa. Njegova ujednačena struktura i topla paleta boja uklapaju se u raznovrsne stilove uređenja enterijera.",
+    "images": {
+      "thumbnail": "img/stones/ivory-brown.jpg",
+      "gallery": ["img/stones/ivory-brown.jpg"],
+      "texture3d": "img/stones/ivory-brown.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "kashmir-white",
+    "name": "Kashmir White",
+    "type": "granit",
+    "origin": {
+      "country": "Indija",
+      "region": "Tamil Nadu",
+      "flag": "\ud83c\uddee\ud83c\uddf3"
+    },
+    "colors": ["bijeli", "sivi"],
+    "uses": ["kuhinje", "kupatila"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm", "5cm"],
+    "processing": ["poliranje", "brusenje"],
+    "description": "Kashmir White je elegantni bijeli granit s nježnim sivim i granatno-crvenim mineralnim inkluzijama koji se vadi u južnoj Indiji. Njegova svijetla podloga i suptilne šare čine ga popularnim izborom za moderne kuhinje i kupatila gdje se želi postići čist i prozračan izgled. Granit je znatno otporniji od mramora, pa pruža ljepotu bijelog kamena uz praktičnost svakodnevne upotrebe.",
+    "images": {
+      "thumbnail": "img/stones/kashmir-white.jpg",
+      "gallery": ["img/stones/kashmir-white.jpg"],
+      "texture3d": "img/stones/kashmir-white.jpg"
+    },
+    "featured": true
+  },
+  {
+    "id": "labrador-verde",
+    "name": "Labrador Verde",
+    "type": "granit",
+    "origin": {
+      "country": "Norveška",
+      "region": null,
+      "flag": "\ud83c\uddf3\ud83c\uddf4"
+    },
+    "colors": ["zeleni"],
+    "uses": ["dekoracija", "kuhinje"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje"],
+    "description": "Labrador Verde je norveški granit tamnozelene boje s karakterističnim blistavim labradorescencijama koje mu daju misterioznu dubinu. Kada svjetlost padne na poliranu površinu, kristali se presijavaju u zelenim i plavim tonovima. Ovaj ekskluzivni kamen se koristi za dekorativne elemente i luksuzne kuhinjske radne ploče.",
+    "images": {
+      "thumbnail": "img/stones/labrador-verde.jpg",
+      "gallery": ["img/stones/labrador-verde.jpg"],
+      "texture3d": "img/stones/labrador-verde.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "multicolor",
+    "name": "Multicolor Red",
+    "type": "granit",
+    "origin": {
+      "country": "Indija",
+      "region": "Rajasthan",
+      "flag": "\ud83c\uddee\ud83c\uddf3"
+    },
+    "colors": ["crveni", "šareni"],
+    "uses": ["spomenici", "fasade"],
+    "hardness": 7,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje", "paljenje"],
+    "description": "Multicolor Red je živopisan indijski granit iz Rajasthana s bogatom paletom crvenih, sivih i crnih tonova koji se prepliću u dinamičan uzorak. Svaka ploča ima jedinstvenu kombinaciju boja i šara, što ga čini posebno atraktivnim za izradu spomenika. Njegova visoka tvrdoća i otpornost na vremenske uslove garantiraju dugotrajnost u eksterijeru.",
+    "images": {
+      "thumbnail": "img/stones/multicolor.jpg",
+      "gallery": ["img/stones/multicolor.jpg"],
+      "texture3d": "img/stones/multicolor.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "nero-assoluto",
+    "name": "Nero Assoluto",
+    "type": "granit",
+    "origin": {
+      "country": "Indija",
+      "region": "Karnataka",
+      "flag": "\ud83c\uddee\ud83c\uddf3"
+    },
+    "colors": ["crni"],
+    "uses": ["spomenici", "kuhinje", "dekoracija"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm", "5cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje", "paljenje"],
+    "description": "Nero Assoluto je crni granit jednolike strukture koji se vadi u indijskoj saveznoj državi Karnataka. Poliran do visokog sjaja, ovaj kamen pruža elegantan i moderan izgled koji je posebno tražen za kuhinjske radne ploče i ekskluzivne spomenike. Dostupan je u različitim obradama, od visokog sjaja do mat površine, što omogućava raznovrsnu primjenu.",
+    "images": {
+      "thumbnail": "img/stones/nero-assoluto.jpg",
+      "gallery": ["img/stones/nero-assoluto.jpg"],
+      "texture3d": "img/stones/nero-assoluto.jpg"
+    },
+    "featured": true
+  },
+  {
+    "id": "nero-assoluto-zimbabwe",
+    "name": "Nero Assoluto Zimbabwe",
+    "type": "granit",
+    "origin": {
+      "country": "Zimbabve",
+      "region": null,
+      "flag": "\ud83c\uddff\ud83c\uddfc"
+    },
+    "colors": ["crni"],
+    "uses": ["spomenici", "kuhinje", "dekoracija"],
+    "hardness": 7,
+    "thicknesses": ["2cm", "3cm", "5cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje", "paljenje"],
+    "description": "Nero Assoluto Zimbabwe je najkvalitetniji crni granit na tržištu, poznat po apsolutno jednolikoj crnoj boji bez ikakvih primjesa. Ovaj kamen iz Zimbabvea je gušći i tvrđi od indijskog crnog granita, što ga čini prvim izborom za vrhunske spomenike i luksuzne enterijere. Njegova duboka crna boja i savršena polirna površina simboliziraju eleganciju i trajnost.",
+    "images": {
+      "thumbnail": "img/stones/nero-assoluto-zimbabwe.jpg",
+      "gallery": ["img/stones/nero-assoluto-zimbabwe.jpg"],
+      "texture3d": "img/stones/nero-assoluto-zimbabwe.jpg"
+    },
+    "featured": true
+  },
+  {
+    "id": "new-imperial-red",
+    "name": "New Imperial Red",
+    "type": "granit",
+    "origin": {
+      "country": "Indija",
+      "region": "Rajasthan",
+      "flag": "\ud83c\uddee\ud83c\uddf3"
+    },
+    "colors": ["crveni"],
+    "uses": ["spomenici", "fasade"],
+    "hardness": 7,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje", "paljenje"],
+    "description": "New Imperial Red je jarko crveni granit iz indijskog Rajasthana, jedan od najintenzivnije obojenih kamena na tržištu. Njegova duboka crvena boja s crnim i sivim mineralnim zrncima pruža upečatljiv vizualni dojam. Najčešće se koristi za izradu spomenika i fasadnih obloga gdje je potreban snažan vizualni akcenat.",
+    "images": {
+      "thumbnail": "img/stones/new-imperial-red.jpg",
+      "gallery": ["img/stones/new-imperial-red.jpg"],
+      "texture3d": "img/stones/new-imperial-red.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "padang-cristallo",
+    "name": "Padang Cristallo",
+    "type": "granit",
+    "origin": {
+      "country": "Kina",
+      "region": "Fujian",
+      "flag": "\ud83c\udde8\ud83c\uddf3"
+    },
+    "colors": ["sivi", "bijeli"],
+    "uses": ["kuhinje", "podovi", "stepenista"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm", "5cm"],
+    "processing": ["poliranje", "brusenje", "paljenje"],
+    "description": "Padang Cristallo je svjetlosivi kineski granit sitnog zrna s bijelim i tamnosivim kristalima ravnomjerno raspoređenim po površini. Ovaj kamen nudi odličan odnos cijene i kvaliteta, što ga čini popularnim izborom za podne obloge, stepeništa i kuhinjske radne ploče. Njegova neutralna siva boja lako se uklapa u različite stilove uređenja prostora.",
+    "images": {
+      "thumbnail": "img/stones/padang-cristallo.jpg",
+      "gallery": ["img/stones/padang-cristallo.jpg"],
+      "texture3d": "img/stones/padang-cristallo.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "paradiso-bash",
+    "name": "Paradiso Bash",
+    "type": "granit",
+    "origin": {
+      "country": "Indija",
+      "region": "Andhra Pradesh",
+      "flag": "\ud83c\uddee\ud83c\uddf3"
+    },
+    "colors": ["smeđi", "šareni"],
+    "uses": ["kuhinje", "podovi"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje", "paljenje"],
+    "description": "Paradiso Bash je indijski granit smeđih i sivih tonova s karakterističnim talasastim šarama koje mu daju dinamičan i prirodan izgled. Ovaj kamen je nešto svjetliji od svog srodnika Paradiso Classico i ima manje izražene šare. Koristi se za kuhinjske radne ploče i podne obloge u prostorima gdje se želi topla i prirodna atmosfera.",
+    "images": {
+      "thumbnail": "img/stones/paradiso-bash.jpg",
+      "gallery": ["img/stones/paradiso-bash.jpg"],
+      "texture3d": "img/stones/paradiso-bash.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "paradiso-classico",
+    "name": "Paradiso Classico",
+    "type": "granit",
+    "origin": {
+      "country": "Indija",
+      "region": "Andhra Pradesh",
+      "flag": "\ud83c\uddee\ud83c\uddf3"
+    },
+    "colors": ["smeđi", "šareni"],
+    "uses": ["kuhinje", "podovi", "stepenista"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm", "5cm"],
+    "processing": ["poliranje", "brusenje", "paljenje"],
+    "description": "Paradiso Classico je jedan od najpopularnijih indijskih granita, poznat po izraženim talasastim šarama u nijansama smeđe, ljubičaste i sive. Njegova bogata tekstura i topli tonovi čine ga omiljenim izborom za kuhinjske radne ploče i podne obloge u cijeloj Evropi. Kamen je izuzetno otporan i dostupan u većim debljinama za stepeništa i masivnije projekte.",
+    "images": {
+      "thumbnail": "img/stones/paradiso-classico.jpg",
+      "gallery": ["img/stones/paradiso-classico.jpg"],
+      "texture3d": "img/stones/paradiso-classico.jpg"
+    },
+    "featured": true
+  },
+  {
+    "id": "rosa-beta",
+    "name": "Rosa Beta",
+    "type": "granit",
+    "origin": {
+      "country": "Italija",
+      "region": "Sardinija",
+      "flag": "\ud83c\uddee\ud83c\uddf9"
+    },
+    "colors": ["ružičasti", "sivi"],
+    "uses": ["spomenici", "fasade", "stepenista"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm", "5cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje", "paljenje"],
+    "description": "Rosa Beta je sardinijski granit nježno ružičaste boje s krupnim sivim i crnim kristalima koji mu daju prepoznatljiv izgled. Ovaj kamen je jedan od najpopularnijih izbora za izradu spomenika i nadgrobnih ploča u Bosni i Hercegovini i cijeloj regiji. Također se široko koristi za fasadne obloge i stepeništa zbog svoje izuzetne otpornosti na vremenske uslove.",
+    "images": {
+      "thumbnail": "img/stones/rosa-beta.jpg",
+      "gallery": ["img/stones/rosa-beta.jpg"],
+      "texture3d": "img/stones/rosa-beta.jpg"
+    },
+    "featured": true
+  },
+  {
+    "id": "rosa-perlino",
+    "name": "Rosa Perlino",
+    "type": "mramor",
+    "origin": {
+      "country": "Italija",
+      "region": "Veneto",
+      "flag": "\ud83c\uddee\ud83c\uddf9"
+    },
+    "colors": ["ružičasti", "bež"],
+    "uses": ["podovi", "kupatila"],
+    "hardness": 3.5,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje"],
+    "description": "Rosa Perlino je nježni talijanski mramor iz pokrajine Veneto, prepoznatljiv po toploj ružičasto-bež podlozi s diskretnim svijetlim žilama. Ovaj kamen unosi toplinu i eleganciju u svaki prostor, posebno u kupatilima i na podnim površinama. Njegova meka tekstura i topli tonovi idealni su za klasične i romantične stilove uređenja.",
+    "images": {
+      "thumbnail": "img/stones/rosa-perlino.jpg",
+      "gallery": ["img/stones/rosa-perlino.jpg"],
+      "texture3d": "img/stones/rosa-perlino.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "roso-porino",
+    "name": "Roso Porino",
+    "type": "granit",
+    "origin": {
+      "country": "Italija",
+      "region": "Sardinija",
+      "flag": "\ud83c\uddee\ud83c\uddf9"
+    },
+    "colors": ["ružičasti"],
+    "uses": ["spomenici", "fasade"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje", "paljenje"],
+    "description": "Roso Porino je sardinijski granit ružičaste boje sa sitnim crnim i sivim zrncima koji mu daju ravnomjernu i ugodnu teksturu. Ovaj kamen je sličan Rosa Beta granitu, ali ima finiju strukturu i ujednačeniju boju. Posebno je cijenjen za izradu spomenika i fasadnih obloga u cijelom mediteranskom području.",
+    "images": {
+      "thumbnail": "img/stones/roso-porino.jpg",
+      "gallery": ["img/stones/roso-porino.jpg"],
+      "texture3d": "img/stones/roso-porino.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "rosso-verona",
+    "name": "Rosso Verona",
+    "type": "mramor",
+    "origin": {
+      "country": "Italija",
+      "region": "Veneto",
+      "flag": "\ud83c\uddee\ud83c\uddf9"
+    },
+    "colors": ["crveni", "smeđi"],
+    "uses": ["podovi", "fasade", "dekoracija"],
+    "hardness": 3.5,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje", "pjeskarenje"],
+    "description": "Rosso Verona je poznati talijanski mramor crvenkasto-smeđe boje s bijelim kalcitnim žilama i ponekad vidljivim fosilima. Ovaj kamen se vadi u blizini Verone u pokrajini Veneto i ima dugu historiju korištenja u talijanskoj arhitekturi. Koristi se za podne obloge, fasadne obloge i dekorativne elemente koji zahtijevaju toplu i bogatu estetiku.",
+    "images": {
+      "thumbnail": "img/stones/rosso-verona.jpg",
+      "gallery": ["img/stones/rosso-verona.jpg"],
+      "texture3d": "img/stones/rosso-verona.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "star-galaxy",
+    "name": "Star Galaxy",
+    "type": "granit",
+    "origin": {
+      "country": "Indija",
+      "region": "Andhra Pradesh",
+      "flag": "\ud83c\uddee\ud83c\uddf3"
+    },
+    "colors": ["crni", "zlatni"],
+    "uses": ["kuhinje", "kupatila", "dekoracija"],
+    "hardness": 7,
+    "thicknesses": ["2cm", "3cm", "5cm"],
+    "processing": ["poliranje", "brusenje"],
+    "description": "Star Galaxy je spektakularan crni granit posut sitnim zlatnim kristalima bronzita koji se presijavaju poput zvijezda na noćnom nebu. Ovaj indijski kamen je jedan od najprepoznatljivijih i najtraženijih granita na svijetu za luksuzne enterijere. Poliran do visokog sjaja, stvara dramatičan vizualni efekat na kuhinjskim radnim pločama i dekorativnim površinama.",
+    "images": {
+      "thumbnail": "img/stones/star-galaxy.jpg",
+      "gallery": ["img/stones/star-galaxy.jpg"],
+      "texture3d": "img/stones/star-galaxy.jpg"
+    },
+    "featured": true
+  },
+  {
+    "id": "verde-guatemala",
+    "name": "Verde Guatemala",
+    "type": "mramor",
+    "origin": {
+      "country": "Indija",
+      "region": null,
+      "flag": "\ud83c\uddee\ud83c\uddf3"
+    },
+    "colors": ["zeleni"],
+    "uses": ["dekoracija", "kupatila"],
+    "hardness": 4,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje"],
+    "description": "Verde Guatemala je tamnozeleni mramor s bijelim i svijetlozelenim žilama koji, uprkos svom imenu, danas uglavnom dolazi iz Indije. Ovaj kamen ima bogatu i duboku zelenu boju koja asocira na tropsku vegetaciju i prirodu. Idealan je za dekorativne zidne obloge i kupatilske površine gdje se želi stvoriti osjećaj luksuza i egzotike.",
+    "images": {
+      "thumbnail": "img/stones/verde-guatemala.jpg",
+      "gallery": ["img/stones/verde-guatemala.jpg"],
+      "texture3d": "img/stones/verde-guatemala.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "verde-italia",
+    "name": "Verde Italia",
+    "type": "mramor",
+    "origin": {
+      "country": "Italija",
+      "region": null,
+      "flag": "\ud83c\uddee\ud83c\uddf9"
+    },
+    "colors": ["zeleni"],
+    "uses": ["dekoracija"],
+    "hardness": 3.5,
+    "thicknesses": ["2cm"],
+    "processing": ["poliranje", "brusenje"],
+    "description": "Verde Italia je talijanski zeleni mramor karakteristične tamnozelene boje prošaran svijetlijim žilama serpentina. Ovaj kamen se tradicionalno koristi za dekorativne elemente u enterijeru gdje zelena boja stvara osjećaj svježine i prirodnosti. Zbog ograničene dostupnosti, cijeni se kao ekskluzivan materijal za posebne projekte.",
+    "images": {
+      "thumbnail": "img/stones/verde-italia.jpg",
+      "gallery": ["img/stones/verde-italia.jpg"],
+      "texture3d": "img/stones/verde-italia.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "verde-tropical",
+    "name": "Verde Tropical",
+    "type": "granit",
+    "origin": {
+      "country": "Brazil",
+      "region": null,
+      "flag": "\ud83c\udde7\ud83c\uddf7"
+    },
+    "colors": ["zeleni", "šareni"],
+    "uses": ["kuhinje", "dekoracija"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje"],
+    "description": "Verde Tropical je brazilski granit živih zelenih tonova s crnim, bijelim i žutim mineralnim inkluzijama koje mu daju tropski i egzotičan izgled. Svaka ploča ovog kamena je jedinstvena, s nepredvidivim šarama koje podsjećaju na tropsku džunglu. Koristi se za kuhinjske radne ploče i dekorativne površine gdje se želi unijeti doza prirodne egzotike.",
+    "images": {
+      "thumbnail": "img/stones/verde-tropical.jpg",
+      "gallery": ["img/stones/verde-tropical.jpg"],
+      "texture3d": "img/stones/verde-tropical.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "vizag-blue",
+    "name": "Vizag Blue",
+    "type": "granit",
+    "origin": {
+      "country": "Indija",
+      "region": "Andhra Pradesh",
+      "flag": "\ud83c\uddee\ud83c\uddf3"
+    },
+    "colors": ["plavi", "sivi"],
+    "uses": ["spomenici", "kuhinje"],
+    "hardness": 6.5,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje", "paljenje"],
+    "description": "Vizag Blue je indijski granit plavkasto-sive boje s tamnim i svijetlim mineralnim zrncima koji mu daju suptilnu teksturu. Ime je dobio po lučkom gradu Visakhapatnamu u saveznoj državi Andhra Pradesh, odakle se izvozi širom svijeta. Cijenjen je za izradu elegantnih spomenika i kuhinjskih radnih ploča koje traže nenametljivu eleganciju.",
+    "images": {
+      "thumbnail": "img/stones/vizag-blue.jpg",
+      "gallery": ["img/stones/vizag-blue.jpg"],
+      "texture3d": "img/stones/vizag-blue.jpg"
+    },
+    "featured": false
+  },
+  {
+    "id": "ziche-verde",
+    "name": "Ziche Verde",
+    "type": "mramor",
+    "origin": {
+      "country": "Italija",
+      "region": null,
+      "flag": "\ud83c\uddee\ud83c\uddf9"
+    },
+    "colors": ["zeleni"],
+    "uses": ["dekoracija", "kupatila"],
+    "hardness": 3.5,
+    "thicknesses": ["2cm", "3cm"],
+    "processing": ["poliranje", "brusenje"],
+    "description": "Ziche Verde je talijanski zeleni mramor nježne zelene boje s bijelim i sivim proživljavanjima koji mu daju unikatan karakter. Ovaj kamen je posebno cijenjen za dekorativne obloge u kupatilima i wellness prostorima gdje njegova zelena boja stvara umirujuću atmosferu. Poliran do visokog sjaja, otkriva dubinu svojih zelenih tonova i eleganciju prirodnog kamena.",
+    "images": {
+      "thumbnail": "img/stones/ziche-verde.jpg",
+      "gallery": ["img/stones/ziche-verde.jpg"],
+      "texture3d": "img/stones/ziche-verde.jpg"
+    },
+    "featured": false
+  }
+]

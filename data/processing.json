@@ -1,0 +1,51 @@
+[
+  {
+    "id": "poliranje",
+    "name": "Poliranje",
+    "icon": "✨",
+    "description": "Poliranje je postupak fino obrade kamena kojim se postiže visoki sjaj i ogledalna površina. Kamen se obrađuje dijamantskim alatima kroz više faza, od grublje do najfinije granulacije, dok se ne postigne savršena glatkoća.",
+    "result": "Površina kamena dobija dubok sjaj sa efektom ogledala. Boje i prirodne šare kamena dolaze do punog izražaja, a tekstura je potpuno glatka na dodir."
+  },
+  {
+    "id": "brusenje",
+    "name": "Brušenje",
+    "icon": "🪨",
+    "description": "Brušenje je postupak obrade kamena kojim se postiže glatka, ali mat površina bez sjaja. Kamen se obrađuje dijamantskim brusnim pločama do određene finoće, ali se ne dovodi do faze poliranja.",
+    "result": "Površina kamena je glatka i ravna sa finom mat teksturom. Boje kamena su vidljive ali nešto blaže nego kod poliranja, što daje elegantan i suzdržan izgled."
+  },
+  {
+    "id": "pjeskarenje",
+    "name": "Pjeskarenje",
+    "icon": "💨",
+    "description": "Pjeskarenje je postupak obrade kod kojeg se površina kamena izlaže mlazu pijeska ili korunda pod visokim pritiskom. Time se uklanja gornji sloj kamena i stvara ravnomjerno hrapava tekstura.",
+    "result": "Površina kamena je ravnomjerno hrapava i mat, sa blagom teksturom nalik na fini pješčanik. Idealna je za vanjske primjene jer pruža protivkliznost i otpornost na habanje."
+  },
+  {
+    "id": "paljenje",
+    "name": "Paljenje",
+    "icon": "🔥",
+    "description": "Paljenje je termički postupak obrade kod kojeg se površina kamena izlaže plamenu temperature od preko 2000°C. Minerali na površini pucaju i stvaraju karakterističnu grubu teksturu.",
+    "result": "Površina kamena je izrazito hrapava i protivklizna, sa prirodnim izgledom. Boje kamena postaju nešto svjetlije. Ova obrada je idealna za podove, stepenice i vanjske površine gdje je bitna sigurnost."
+  },
+  {
+    "id": "antik",
+    "name": "Antik obrada",
+    "icon": "🏛️",
+    "description": "Antik obrada je postupak kojim se kamenu daje izgled ostarjele, vremenski izložene površine. Kamen se obrađuje specijalnim četkama i kiselinama koje blago nagrizaju površinu i zaobljuju ivice.",
+    "result": "Površina kamena ima mekan, zaobljen izgled sa blagom patinom kao da je star stoljećima. Ivice su zaobljene, a tekstura je glatka ali ne sjajna, što daje rustikalan i topao dojam."
+  },
+  {
+    "id": "bush-hammer",
+    "name": "Bush Hammer",
+    "icon": "🔨",
+    "description": "Bush hammer obrada koristi specijalni čekić sa mnoštvom šiljaka koji udaraju po površini kamena. Rezultat su gusto raspoređene tačkaste udubine koje stvaraju ujednačenu grubu teksturu.",
+    "result": "Površina kamena je prekrivena sitnim tačkastim udubinama koje stvaraju ravnomjerno hrapavu teksturu. Izgled je industrijski i moderan, a površina pruža odličnu protivkliznost."
+  },
+  {
+    "id": "stokovano",
+    "name": "Štokovanje",
+    "icon": "⚒️",
+    "description": "Štokovanje je tradicionalna tehnika obrade kamena pri kojoj se koristi štok-čekić sa finim zupcima. Površina se fino obrađuje kontrolisanim udarcima koji stvaraju pravilnu, sitno zrnastu teksturu.",
+    "result": "Površina kamena ima finu, ujednačenu zrnastu teksturu sa plitkim pravilnim tragovima obrade. Izgled je klasičan i dostojanstven, čest na historijskim građevinama i fasadama."
+  }
+]
